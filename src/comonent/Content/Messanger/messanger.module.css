@@ -1,0 +1,55 @@
+.messanger_wrap{
+  display: flex;
+}
+.owerflow{
+  overflow-y: auto;
+}
+.owerflow::-webkit-scrollbar {
+  width: 5px;  
+        
+}
+.owerflow::-webkit-scrollbar-thumb{
+  border-radius: 20px; 
+}
+.owerflow::-webkit-scrollbar-thumb:hover{
+  background-color: #52525280;    
+  border-radius: 20px;    
+  
+}
+.owerflow::-webkit-scrollbar-track {
+  background: #48484863;       
+}
+.owerflowMessage{
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.owerflowMessage::-webkit-scrollbar {
+  width: 5px;  
+        
+}
+.owerflowMessage::-webkit-scrollbar-thumb{
+  border-radius: 20px; 
+  background-color: #5b5b5b30;
+}
+.owerflowMessage::-webkit-scrollbar-thumb:hover{
+  background-color: #5b5b5b80;    
+  border-radius: 20px;    
+  
+}
+.owerflowMessage::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);       
+}
+.users{
+  width: 30%;
+  height: 91vh;
+  
+}
+.dialogues{
+  width: 100%;
+  margin-left: 4rem;
+}
+.dialogue{
+  height: 80vh;
+}
+
+

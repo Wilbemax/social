@@ -1,0 +1,33 @@
+
+.message_header{
+  display: flex;
+  
+  align-items: center;
+}
+.ava{
+  border-radius: 50%;
+  width: 3rem;
+}
+.name{
+  font-size: var(--fz-medium);
+  font-weight: var(--fw-medium);
+  color: var(--color-Itext);
+  margin-left: 1rem;
+}
+.icon{
+ 
+  color: blue;
+  margin-left: 0.5rem;
+  font-size: var(--fz-normal);
+} 
+.buble{
+  margin-top: 1rem;
+  background: var(--color-block);
+  padding: 1rem;
+  border-radius: 20px;
+  max-width: 25rem;
+  line-height: 1.2rem;
+  font-weight: var(--fw-normal);
+  box-shadow: var(--shadow);
+  color: var(--color-Itext);
+}

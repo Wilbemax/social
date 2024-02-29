@@ -1,0 +1,13 @@
+.user{
+  font-size: var(--fz-medium);
+  color: var(--color-UItext);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.user:hover{
+  color: var(--color-Itext);
+}

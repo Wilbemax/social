@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&family=Comfortaa:wght@300;400;500;600&display=swap');*{
+  padding: 0;
+  margin: 0;
+  border: 0;
   }
-}
+  *,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box ;
+  box-sizing: border-box;
+  }
+  :focus,:active{outline: none;}
+  a:focus,a:active{outline: none;}
+  
+  footer,header,aside{display: block;}
+  
+  html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  }
+  input,button,textarea{font-family: inherit;}
+  
+  input::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button::-moz-focus-inner{padding:0;border: 0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  ul li{list-style: none;}
+  img{vertical-align: top}
+  
+  h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 500;}
 
-.App-header {
-  background-color: #282c34;
+:root{
+  --font: 'Comfortaa', cursive;
+  --color-Itext: #fff;
+  --color-UItext: #b7b7b7;
+  --color-bg: #000;
+  --color-content: #131218;
+  --color-block: rgba(36, 36, 36, 0.721);
+  --bg-button:rgba(83, 83, 83, 0.89);
+  --fz-normal: 14px;
+  --fz-medium: 1.1rem;
+  --fz-big: 1.4rem;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-big: 600;
+  --transition: all 400ms ease;
+  --shadow: 0px 9px 20px -5px rgb(10 10 10); 
+  --radius: .5rem;
+  --block-padding: 1rem 2rem ;
+  --block-bottom: 2.5rem;
+  --bg-hover-button:rgb(83, 83, 83);
+}
+html{
+  height: 100vh;
+}
+body{
+  overflow: hidden;
+  
+}
+.wraper{display: flex;}
+.App{background-color:
+   var(--color-bg);
+  
+  overflow: hidden;
+  }
+.content{
+  background: var(--color-content);
   min-height: 100vh;
+
+  width: 1000px;
+  margin-right: 15rem;
+  border-radius: 5px;
+  color: var(--color-UItext);
+  height: 70vh;
+  
+}
+.owerflow{
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.owerflow::-webkit-scrollbar {
+  width: 5px;  
+        
+}
+.owerflow::-webkit-scrollbar-thumb{
+  border-radius: 20px; 
+  background-color: #5b5b5b3c;
+}
+.owerflow::-webkit-scrollbar-thumb:hover{
+  background-color: #5b5b5b80;    
+  border-radius: 20px;    
+  
+}
+.owerflow::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);       
+}
+.content_in{
+  padding:  0px 10rem 0px 10rem;
+  
+}
+.content_in-post{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.nYou{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
 }
-
-.App-link {
-  color: #61dafb;
+.messages{
+  margin: 2rem;
+  overflow: hidden;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.you{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }

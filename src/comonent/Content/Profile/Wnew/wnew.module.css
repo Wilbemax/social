@@ -1,0 +1,30 @@
+.input_post{
+    background-color: var(--color-block);
+    border-radius: var(--radius);
+    padding: 1rem;
+    width: 75%;
+    box-shadow:var(--shadow);
+    margin-top: 2rem;
+    color: var(--color-UItext);
+    font-size: var(--fz-normal);
+    word-wrap: break-word;
+}
+.input_post::placeholder{
+    color: rgb(70, 70, 70);
+}
+.add_but{
+    background:  var(--color-block);
+    padding: 1rem 0 ;
+    width: 23%;
+    
+    border-radius: var(--radius);
+    font-weight: var(--fw-big);
+    color: var(--color-UItext);
+    margin-left: 9px;
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+}
+.add_but:hover{
+    background: rgba(0, 0, 255, 0.69);
+    color: var(--color-Itext);
+}

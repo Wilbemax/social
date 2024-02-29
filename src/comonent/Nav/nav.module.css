@@ -1,0 +1,38 @@
+.nav{
+  font-weight: var(--fw-medium);
+  width: 35rem;
+  font-size: var(--fz-normal);
+  margin-top: 4rem;
+  
+}
+
+.nav_wrap{
+  display: flex;
+  margin-bottom: 1.5rem;
+
+}
+.icon{
+  top: -2px;
+  position: relative;
+  margin-right: 2rem;
+  font-size: 22px;
+  margin-left: 2rem;
+  color: var(--color-UItext);
+}
+.link{
+  color: var(--color-UItext);
+  transition: var(--transition);
+  
+}
+.link:hover{
+  color: var(--color-Itext);
+  font-size: calc(var(--fz-normal) + .2px);
+  letter-spacing: 2.5px;
+}
+.links{
+  transition: var(--transition);
+}
+.links:hover{
+  color: var(--color-Itext);
+
+}

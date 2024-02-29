@@ -1,0 +1,45 @@
+.friends_wrap{
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    background-color: var(--color-block);
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+    margin-bottom: var(--block-bottom);
+    padding: var(--block-padding);
+}
+.avatar{
+    border-radius: 50%;
+    height: 5rem;
+}
+.fritnd_discrip{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+.first_lstName{
+    margin-top: 2rem;
+    font-size: var(--fz-big);
+    font-weight: var(--fw-big);
+    color: var(--color-Itext);
+    margin-bottom: 1rem;
+}
+.status{
+    font-size: var(--fz-normal);
+}
+.button{
+    margin-left: 5rem;
+    padding: 0.2rem 0.5rem;
+    background: var(--bg-button);
+    font-size: var(--fz-normal);
+    font-weight: var(--fw-medium);
+    color: var(--color-UItext);
+    transition: var(--transition);
+}
+.button:hover{
+    background: var(--bg-hover-button);
+    color: var(--color-Itext);
+}

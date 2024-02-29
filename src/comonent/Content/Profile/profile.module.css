@@ -1,0 +1,19 @@
+.posts{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: .5rem;
+}
+.cover{
+    width: 100%;
+    height: 10rem;
+    
+}
+.hed_post{
+    font-size: 1.5rem;
+    color: var(--color-stext);;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    margin-top: 1
+    .5rem;
+}
+

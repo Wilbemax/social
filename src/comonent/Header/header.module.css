@@ -1,0 +1,11 @@
+.header{
+    color: var(--color-UItext);
+    font-size: var(--fz-big);
+    letter-spacing: 0.1rem;
+    padding: 2rem 0 0 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    transition: var(--transition);
+}
+.header:hover{
+    color: var(--color-Itext);}
